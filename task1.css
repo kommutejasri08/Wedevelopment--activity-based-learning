@@ -1,1 +1,196 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #5c3025;
+}
+
+/* Header */
+header {
+    background-color: #f5c6aa;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Navigation */
+nav {
+    background-color: #713f32;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd6a5;
+}
+
+/* Banner */
+.banner {
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+    url("https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1400&q=85");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+}
+
+.banner h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #8b4513;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: #a0522d;
+    color: white;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #713f32;
+}
+
+/* Products */
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 260px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.card img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+    color: #713f32;
+}
+
+.card p {
+    margin: 8px 0;
+}
+
+.price {
+    color: #c0392b;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Offers */
+.offer {
+    background-color: #ffe0bd;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 30px 20px;
+    border-radius: 15px;
+}
+
+.offer h2 {
+    margin-top: 0;
+}
+
+.offer h3 {
+    color: #a0522d;
+    margin: 15px;
+}
+
+.offer p {
+    margin: 12px;
+}
+
+/* Custom Cakes */
+.custom {
+    background-color: #f8d7c4;
+    text-align: center;
+    padding: 35px 20px;
+    margin: 30px 20px;
+    border-radius: 15px;
+}
+
+.custom h2 {
+    margin-top: 0;
+}
+
+.custom p {
+    margin: 12px;
+    font-size: 17px;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.gallery img {
+    width: 260px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Contact */
+.contact {
+    background-color: #713f32;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+
