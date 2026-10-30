@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f7fc;
+    color: #24364b;
+}
+
+header {
+    background-color: #1261a0;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    background-color: #0b3457;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffbd69;
+}
+
+.banner {
+    background-color: #dceeff;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.banner h2 {
+    color: #1261a0;
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #f28c28;
+    color: white;
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+    color: #1261a0;
+}
+
+.booking {
+    background-color: white;
+    max-width: 850px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d1dfec;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #b8cde0;
+    border-radius: 6px;
+}
+
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+
+.form-row div {
+    flex: 1;
+    min-width: 0;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px #d1dfec;
+}
+
+.card h3 {
+    color: #1261a0;
+}
+
+.fare {
+    color: #e87518;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.table-box {
+    overflow-x: auto;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #cbd9e7;
+    padding: 13px;
+    text-align: center;
+}
+
+th {
+    background-color: #1261a0;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #eaf4fc;
+}
+
+.seats {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    justify-content: center;
+    gap: 12px;
+    margin: 25px auto;
+}
+
+.seat {
+    background-color: #d7f3df;
+    color: #176b37;
+    text-align: center;
+    padding: 14px 5px;
+    border-radius: 7px;
+    border: 1px solid #9bd5ac;
+}
+
+.seat input {
+    width: auto;
+}
+
+.booked {
+    background-color: #d9dfe5;
+    color: #687684;
+}
+
+.legend {
+    text-align: center;
+    line-height: 2;
+}
+
+.contact {
+    background-color: #0b3457;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.contact h2 {
+    color: #ffbd69;
+}
+
+footer {
+    background-color: #071f35;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
+
